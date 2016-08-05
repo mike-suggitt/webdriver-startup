@@ -13,3 +13,9 @@ run `npm i`
 open a terminal and run `gulp selenium`
 
 open another terminal and run `gulp cucumber` or `gulp cucumber-phantom`
+
+### Tags
+
+In order to run tags via the command line simply add `--tags=@tagname,@anothertagname` in comma-seperated format.
+
+In addition to this you can set defaultTags in profiles using `defaultTags: ['@tag']`
