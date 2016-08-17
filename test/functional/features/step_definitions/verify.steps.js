@@ -1,5 +1,4 @@
-
-export default function() {
+module.exports = function() {
 
     this.Then(/^I (?:can|should) see "(.*)" at least "(\d+)" times?$/, function (selector, count) {
         selector = this.getSelector(selector);

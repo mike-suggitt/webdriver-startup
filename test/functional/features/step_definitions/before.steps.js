@@ -1,5 +1,5 @@
-export default function() {
+module.exports = function() {
     this.Before(function() {
-        require('babel-core/register')();
+        
     });
-}
+};

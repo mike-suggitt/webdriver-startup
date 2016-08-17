@@ -1,4 +1,4 @@
-export default function() {
+module.exports = function() {
     var index = 0;
 
     this.Given(/^I wait (\d+) seconds?$/, function (seconds) {

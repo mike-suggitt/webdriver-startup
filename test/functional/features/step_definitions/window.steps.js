@@ -1,4 +1,4 @@
-export default function() {
+module.exports = function() {
     this.Given(/^I set the viewport to "(.*)" by "(.*)"$/, function (w ,h) {
         this.client
             .setViewportSize({

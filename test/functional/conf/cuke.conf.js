@@ -57,7 +57,7 @@ exports.config = {
     // If you are using Cucumber you need to specify where your step definitions are located.
     cucumberOpts: {
         require: [
-            './test/functional/features/step_definitions/index.steps.js'
+            './test/functional/features/step_definitions'
         ],
         // Enable this config to treat undefined definitions as warnings.
         // ignoreUndefinedDefinitions: false,
